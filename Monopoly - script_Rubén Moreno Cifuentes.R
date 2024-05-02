@@ -1,6 +1,6 @@
 # Rubén Moreno Cifuentes
 
-## Monopoly Simulación R Avanzado:
+## Monopoly Simulación:
 rm(list=ls())
 
 monopoly <- function(turnos = 100, time = 4) {
@@ -1906,6 +1906,6 @@ monopoly <- function(turnos = 100, time = 4) {
      # El numero de rondas: turnos = 1000
      # El tiempo de espera entre turnos: time = 4 
 
-monopoly(turnos = 200, time = 0)
+monopoly(turnos = 200, time = 4)
 
 
